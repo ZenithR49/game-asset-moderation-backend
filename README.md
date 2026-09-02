@@ -12,7 +12,7 @@ In another terminal:
 npm run demo
 ```
 
-The demo sends a live-event image request. The service generates the image through Infrai's OpenAI-compatible `baseURL`, writes the PNG and JSON record under `var/assets`, and returns a record whose `moderation` value is `pending_review`. One API key keeps the image call behind the same small interface used by other AI capabilities. Infrai gives you one key and one bill for every capability, called from any language with a plain REST request and no SDK.
+The demo sends a live-event image request. The service generates the image through Infrai's OpenAI-compatible `baseURL`, writes the PNG and JSON record under `var/assets`, and returns a record whose `moderation` value is `pending_review`. One API key keeps the image call behind the same small interface used by other AI capabilities.
 
 ## The decision this service owns
 
